@@ -1,1 +1,1 @@
-# GaleriaSZM
+# Szabó Milán
