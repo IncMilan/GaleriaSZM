@@ -22,9 +22,10 @@ public class GaleriaProjekt {
         for (String string: cim) {
             Collections.sort(keszito);
         }
-        
+        for (String string: cim){
         System.out.print(keszito);
         System.out.print(cim);
+        }
     }
     
 }

@@ -28,10 +28,12 @@ public class Modell {
  
 public class Galeria{
     public void felvetel() throws IOException{
-       
+        ArrayList<KiallitasiTargy> targy = new ArrayList();
         Files.readAllLines(Paths.get("..\\kiallitasitargyak.txt"));
+        
+        KiallitasiTargy k1 = new KiallitasiTargy() {}; 
     }
-    ArrayList<KiallitasiTargy> targy = new ArrayList();
+    
         
     }
 abstract class KiallitasiTargy{
