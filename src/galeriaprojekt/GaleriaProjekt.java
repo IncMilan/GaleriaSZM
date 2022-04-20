@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package galeriaprojekt;
 
-/**
- *
- * @author Szabo.Milan
- */
+package galeriaprojekt;
+import java.util.ArrayList;
 public class GaleriaProjekt {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        ArrayList<String> cim = new ArrayList<String>();
+        ArrayList<String> keszito = new ArrayList<String>();
+        
+        keszito.add("Kovács Győző");
+        keszito.add("Szabó János");
+        
+        cim.add("Háttér");
+        cim.add("Kisállat");
+        
+        Modell m1 = new Modell();
+        System.out.print(keszito);
+ 
     }
     
 }
