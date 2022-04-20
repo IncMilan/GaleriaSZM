@@ -1,6 +1,7 @@
 
 package galeriaprojekt;
 import java.util.ArrayList;
+import java.util.Collections;
 public class GaleriaProjekt {
 
 
@@ -14,9 +15,16 @@ public class GaleriaProjekt {
         cim.add("Háttér");
         cim.add("Kisállat");
         
-        Modell m1 = new Modell();
+        Modell m = new Modell();
+        for (String string: cim) {
+            Collections.sort(cim);
+        }
+        for (String string: cim) {
+            Collections.sort(keszito);
+        }
+        
         System.out.print(keszito);
- 
+        System.out.print(cim);
     }
     
 }
